@@ -3,9 +3,11 @@
 
 - 插入排序
 
-示意图:  
+示意图1:  
 
 ![示意图1](https://github.com/Ranch2014/Sort/blob/master/imgs/insert.png)
+
+示意图2: 
 
 ![示意图2](https://github.com/Ranch2014/Sort/blob/master/imgs/insert2.png)
 
@@ -23,6 +25,10 @@
 参考链接:[http://www.cnblogs.com/kkun/archive/2011/11/23/2260281.html](http://www.cnblogs.com/kkun/archive/2011/11/23/2260281.html)
 
 - 冒泡排序
+
+示意图:  
+
+![冒泡排序](https://github.com/Ranch2014/Sort/blob/master/imgs/bubbleSort.png)
 
 参考链接:[http://blog.csdn.net/pzhtpf/article/details/7560294](http://blog.csdn.net/pzhtpf/article/details/7560294)
 
