@@ -23,7 +23,7 @@ public class Select {
      * 简单选择排序法
      * @param a 需要进行排序的数组
      */
-    static void selectSort(int[] a) {
+    public static void selectSort(int[] a) {
         for (int i=0; i<a.length; i++) {
             int min = a[i]; //最小数
             int idx = i; //最小数的索引
