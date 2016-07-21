@@ -23,7 +23,7 @@ public class Bubble {
      * 冒泡排序法
      * @param a 要进行排序的数组
      */
-    static void bubbleSort(int[] a) {
+    public static void bubbleSort(int[] a) {
         int temp;
         for (int i=0; i<a.length-1; i++) { //一趟比较(若由n个数,需要比较n-1趟)
             for (int j=0; j<a.length-1-i; j++) { //每趟需要比较的次数递减

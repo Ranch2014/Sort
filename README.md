@@ -16,6 +16,17 @@
 
 - 插入排序
 
+算法描述:
+
+1. 从第一个元素开始,该元素可以认为已经被排序
+2. 取出下一个元素,在已经排序的元素序列中从后向前扫描
+3. 如果该元素(已排序)大于新元素,将该元素后移到下一位置
+4. 重复步骤3,直到找到已排序的元素小于或等于新元素的位置
+5. 将新元素插入到该位置后
+6. 重复步骤2~5
+
+参考链接:[https://zh.wikipedia.org/wiki/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F](https://zh.wikipedia.org/wiki/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F)
+
 插入排序所需的时间取决于输入中元素的初始顺序。
 
 倒置指的是数组中的两个顺序颠倒的元素。如果数组中倒置的数量小于数组大小的某个倍数，称这个数组是部分有序的。
@@ -39,11 +50,25 @@
 
 - 二分插入排序
 
+二分插入排序,即先用二分查找算法找出新元素要插入的位置,然后将该位置以后的所有元素后移一位,将新元素插入到该位置.
+
 示意图:
 
 ![二分插入排序](https://github.com/Ranch2014/Sort/blob/master/imgs/BinaryInsert.jpg)
 
 参考链接:[http://blog.csdn.net/sinianzain/article/details/8071416](http://blog.csdn.net/sinianzain/article/details/8071416)
+
+- 希尔排序
+
+希尔排序的思想是使数组中任意间隔为 h 的元素都是有序的。其实质就是分组插入排序，该方法又称缩小增量排序，因DL.Shell于1959年提出而得名。
+
+参考链接:  
+[http://blog.csdn.net/morewindows/article/details/6668714](http://blog.csdn.net/morewindows/article/details/6668714)  
+[http://www.cnblogs.com/jingmoxukong/p/4303279.html](http://www.cnblogs.com/jingmoxukong/p/4303279.html)
+
+上面希尔排序的步长选择都是从n/2开始，每次再减半，直到最后为1。
+其实也可以有另外的更高效的步长选择，关于步长的问题,可参考维基百科:    
+[https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F#.E6.AD.A5.E9.95.BF.E5.BA.8F.E5.88.97](https://zh.wikipedia.org/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F#.E6.AD.A5.E9.95.BF.E5.BA.8F.E5.88.97)
 
 - 冒泡排序
 

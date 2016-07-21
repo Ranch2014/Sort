@@ -1,6 +1,6 @@
 /**
  * Created by jaxer on 6/16/16.
- * 插入排序
+ * 排序算法:插入排序
  * 动画演示: http://zh.visualgo.net/sorting
  */
 public class Insert {
